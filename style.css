@@ -186,7 +186,7 @@ p {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin: 0 auto;
-  column-gap: 20px;
+  column-gap: 50px;
 }
 
 .experience .box {
@@ -279,7 +279,7 @@ td:first-child {
   }
 }
 
-@media (max-width: 505px) {
+@media (max-width: 505px), (max-width: 535px) {
   .about .box .year_company {
     margin-bottom: 20px;
   }
@@ -289,7 +289,7 @@ td:first-child {
   }
 }
 
-@media (max-width: 434px), (max-width: 465px) {
+@media (max-width: 434px), (max-width: 465px), (max-width: 495px) {
   .about .box .year_company {
     margin-bottom: 42px;
   }
